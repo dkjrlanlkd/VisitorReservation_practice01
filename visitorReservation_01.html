@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="visitorReservation_01.css">
+  <title>방문자 명단</title>
+</head>
+<body>
+  <header class="log"><h1>logo</h1></header>
+  
+  <main>
+    <section>
+      <h2 class="headline">Visitor Reservation</h2>
+      <h3 class="information">방문자 정보 입력</h3>
+      <p class="inport">*필수 항목</p></div>
+    </section>
+    <br>
+    <article>
+      <form action="#" method="post" name="vis_infor_sub">
+        <label for="name">*방문자명</label>
+        <input type="text" id="name" placeholder="예)김철수">
+        <label for="phonnumber">*휴대폰 번호</label>
+        <input type="number" id="phonnumber" placeholder="01012345678">
+        <label for="email">*이메일</label>
+        <input type="email" id="email" placeholder="abcde12@naver.com">
+        <label for="becus">방문 목적</label>
+        <select id="becus">
+          <option value="미팅">미팅</option>
+          <option value="업무">업무</option>
+          <option value="면접">면접</option>
+        </select>
+
+        <label for="agree">
+          <input type="checkbox" id="agree">이용약관 동의합니다.
+        </label>
+
+        <laber for="pulinfor">
+          <input type="checkbox" id="pulinfor">개인정보 수집 동의합니다.
+        </laber>
+      </form>
+    </article>
+  </main>
+</body>
+</html>
