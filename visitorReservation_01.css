@@ -11,6 +11,11 @@
   font-family: 'SUITE-Regular';
 }
 
+body {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
 .log {
   text-align: left;
   font-size: medium;
@@ -23,8 +28,9 @@
 }
 
 .information {
-  display: inline;
-
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 25px;
 }
 
 .inport {
@@ -35,22 +41,27 @@
   right: 1.5em;
 }
 
-input {
-  width: 15em;
-  height: 2.5em;
-}
-
-body {
+.mainBox {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
+  align-items: center;
 }
 
 .visitor_box {
-  border: 1px solid;
-  width: 50%;
+  border: 2px rgb(93, 194, 84) solid;
+  width: 70vh;
+  height: 50vh;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  display: block;
 }
