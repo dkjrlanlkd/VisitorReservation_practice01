@@ -39,3 +39,18 @@ input {
   width: 15em;
   height: 2.5em;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.visitor_box {
+  border: 1px solid;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
